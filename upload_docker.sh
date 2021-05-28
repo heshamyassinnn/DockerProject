@@ -8,7 +8,7 @@
 dockerpath=heshamyassin/dockerproject
 # Step 2:  
 # Authenticate & tag
-docker login -u heshamyassin --p huchi489456Y
+docker login -u heshamyassin --p ******
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
