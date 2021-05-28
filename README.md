@@ -1,4 +1,6 @@
-<include a CircleCI status badge, here>
+<img src="https://circleci.com/circleci-logo-stacked-fb.png" alt="drawing" width="100"/>
+
+![CircleCI](https://circleci.com/gh/heshamyassinnn/DockerProject.svg?style=svg)](https://github.com/heshamyassinnn/DockerProject)
 
 ## Project Overview
 
