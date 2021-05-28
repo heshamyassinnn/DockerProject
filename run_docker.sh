@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image
-docker build -t heshamyassin/dockerproject .
+docker build -t dockerproject .
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker container run -it -p 8000:80 heshamyassin/dockerproject
+docker run -it -p 8000:80 dockerproject
