@@ -13,14 +13,15 @@ LOG.setLevel(logging.INFO)
 def scale(payload):
     """Scales Payload"""
     
-    LOG.info("JSON payload: \n"+payload)
+    LOG.info(f"Scaling Payload: \n{payload}")
     scaler = StandardScaler().fit(payload.astype(float))
     scaled_adhoc_predict = scaler.transform(payload.astype(float))
     return scaled_adhoc_predict
 
 @app.route("/")
 def home():
-    html = f"<h3>Sklearn Prediction Home</h3>"
+    dummyVar =""
+    html = f"<h3>Sklearn Prediction Home</h3>{dummyVar}"
     return html.format(format)
 
 @app.route("/predict", methods=['POST'])
